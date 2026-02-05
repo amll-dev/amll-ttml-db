@@ -9,6 +9,10 @@
 [Apple Music-like Lyrics](https://github.com/Steve-xmh/applemusic-like-lyrics)
 /
 [AMLL TTML Tool 逐词歌词编辑器](https://github.com/Steve-xmh/amll-ttml-tool)
+/
+[AMLL Editor 下一代逐词歌词编辑器](https://github.com/amll-dev/amll-editor) (开发中)
+/
+[AMLL Page 网页播放器](https://github.com/apoint123/amll-page)
 
 </div>
 
