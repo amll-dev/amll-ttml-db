@@ -182,10 +182,10 @@
 
 您需要准备：
 
-1. 可被 AMLL生态 歌词编辑器 读取的歌曲音频文件；
+1. 可被 AMLL TTML Tool 读取的歌曲音频文件；
    > 受加密保护的格式不受支持。
-2. 包括 TTML 在内的，可被 AMLL生态 歌词编辑器 识别的歌词文件或歌词纯文本。
-   > AMLL生态 歌词编辑器 所支持的格式： TTML / LRC / ESLyric / YRC / QRC / Lyricify Syllable
+2. 包括 TTML 在内的，可被 Tool 识别的歌词文件或歌词纯文本。
+   > AMLL TTML Tool 所支持的歌词格式： TTML / LRC / ESLyric / YRC / QRC / Lyricify Syllable
 
 然后：
 
