@@ -686,55 +686,46 @@
 </table>
 
 
-## 5. HOYO-MiX
+## 5. 多语言/版本的元数据
 
-- 在以上要求的基础之上，要求将尽可能多地区的元数据添加到文件中；
-  - 当前，Apple 和 Spotify 分为下面这些分区，请按照这些分区逐一查找并添加元数据：[参考](https://github.com/Steve-xmh/amll-ttml-db/issues/3366)
-    - 简中区（Spotify 无简中区）；
-    - 繁中区；
-    - 韩语区；
-    - 日语区；
-    - 其它区（除了以上地区以外的其它地区，语言为英语）。
-- 必须是逐字歌词（如果是英文则应当精细到音节）；
-- 必须适配艺人演唱时的各类效果。
+> [!Important]
+> ### HOYO-MiX 歌词硬性要求
+> - 在以上要求的基础之上，要求将尽可能多地区的元数据添加到文件中；
+>  - 当前，Apple 和 Spotify 分为下面这些分区，请按照这些分区逐一查找并添加元数据;
+>    - 以下为 Apple Music 搜索页：
+>      - 简中区（Spotify 无简中区）：
+>        - https://beta.music.apple.com/cn/search
+>      - 繁中区（三选一即可）：
+>        - https://beta.music.apple.com/hk/search
+>        - https://beta.music.apple.com/mo/search
+>        - https://beta.music.apple.com/tw/search
+>      - 韩语区：
+>        - https://beta.music.apple.com/kr/search
+>      - 日语区：
+>        - https://beta.music.apple.com/jp/search
+>      - 其它区（以美国为例，英语为绝大多数情况）：
+>        - https://beta.music.apple.com/us/search
+>    - Spotify 可以使用 Lyricify 4 的搜索工具进行换区搜索（可能需要更换对应语言的歌曲名）
+> - 必须是逐字歌词（如果是英文则应当精细到音节）；
+> - 必须适配艺人演唱时的各类效果。
 
-> **关于查找不同区的元数据**
->
-> Apple Music 可以通过 AME 插件切换分区查找：
->
-> ![AME 插件查找歌曲信息](./img/image-20250821184933745.png)
->
-> - 简中区：Chinese Mainland
->
-> - 繁中区：Hong Kong SAR, Macao SAR, Taiwan Province, People's Republic of China
->
-> - 韩语区：Korea, Republic of
->
-> - 日语区：Japan
->
-> - 其它区：United States、Russia、France、Vietnam、Brazil, etc.
->
-> 但是这种方式只适用于**同一专辑在各个分区有着不同信息**的情况，而 HOYO-MiX 更倾向于在每个区发一份独占专辑，因此就需要访问各区的链接进行搜索：
->
-> - 简中区：https://beta.music.apple.com/cn/search
->
-> - 繁中区（三选一即可）：
->
->   - https://beta.music.apple.com/hk/search
->
->   - https://beta.music.apple.com/mo/search
->
->   - https://beta.music.apple.com/tw/search
->
-> - 韩语区：https://beta.music.apple.com/kr/search
->
-> - 日语区：https://beta.music.apple.com/jp/search
->
-> - 其它区：https://beta.music.apple.com/us/search
->
-> Spotify 可以使用 Lyricify 4 的搜索工具进行换区搜索（可能需要更换对应语言的歌曲名）：
->
-> ![使用 Lyricify4 查找歌曲信息](./img/image-20250728160546661.png)
+
+### 关于查找不同区的元数据
+
+- 由于部分发行方 如 HOYO-MIX / 鸣潮先约电台 / 塞壬唱片-MSR ，会在不同地区发行不同语言/版本的歌曲，特出此篇；
+  > 具体细节可参考来自 [@ITManCHINA](https://github.com/ITManCHINA) 的 [小提示](https://github.com/Steve-xmh/amll-ttml-db/discussions/7008)，本篇仅简单讲解要点。
+
+- Apple Music 可以通过 AME 插件切换分区查找相同 **歌曲ID** 但不同 **元数据语言** 的歌曲：![AME 插件查找歌曲信息](./img/image-20250821184933745.png)
+  - 简中区：Chinese Mainland
+  - 繁中区：Hong Kong SAR, Macao SAR, Taiwan Province, People's Republic of China
+  - 韩语区：Korea, Republic of
+  - 日语区：Japan
+  - 其它区：United States、Russia、France、Vietnam、Brazil, etc.
+
+- Apple Music 分区发行歌曲的查找在上述 HOYO-MiX 要求中已提及，不再赘述。
+
+- Spotify 可以使用 Lyricify 4 的搜索工具进行换区搜索（可能需要更换对应语言的歌曲名）：
+  ![使用 Lyricify4 查找歌曲信息](./img/image-20250728160546661.png)
 
 ## 6. 其他
 
@@ -742,6 +733,6 @@
 
 - 歌曲作者等信息请使用 AMLL TTML Tool 的元数据功能添加（包括但不限于预设的字段）；
 
-- 提交时标题中的「歌词提交/修正」尽量根据实际提交内容改为「歌词修正」或「歌词提交」；
+- 提交时标题中的「歌词提交/补正」尽量根据实际提交内容改为「歌词补正」或「歌词提交」；
 
-- 如果是对已有歌词的修正，请在补充说明处写明修改原因提供给审核核对，否则将被退回。
+- 如果是对已有歌词的补正，请在补充说明处写明修改原因提供给审核核对，否则将被退回。
