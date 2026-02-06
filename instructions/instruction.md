@@ -712,11 +712,10 @@
 
 ### 关于查找不同区的元数据
 
-由于部分发行方 如 HOYO-MIX / 鸣潮先约电台 / 塞壬唱片-MSR ，会在不同地区发行不同语言/版本的歌曲，特出此篇；
+- 由于部分发行方 如 HOYO-MIX / 鸣潮先约电台 / 塞壬唱片-MSR ，会在不同地区发行不同语言/版本的歌曲，特出此篇；
+  > 具体细节可参考来自 [@ITManCHINA](https://github.com/ITManCHINA) 的 [小提示](https://github.com/Steve-xmh/amll-ttml-db/discussions/7008)，本篇仅简单讲解要点。
 
-具体细节可参考来自 [@ITManCHINA](https://github.com/ITManCHINA) 的 [小提示](https://github.com/Steve-xmh/amll-ttml-db/discussions/7008)，本篇仅简单讲解要点。
-
-Apple Music 可以通过 AME 插件切换分区查找相同 **歌曲ID** 但不同 **元数据语言** 的歌曲：
+- Apple Music 可以通过 AME 插件切换分区查找相同 **歌曲ID** 但不同 **元数据语言** 的歌曲：
 
 ![AME 插件查找歌曲信息](./img/image-20250821184933745.png)
 
@@ -730,9 +729,9 @@ Apple Music 可以通过 AME 插件切换分区查找相同 **歌曲ID** 但不�
 
   - 其它区：United States、Russia、France、Vietnam、Brazil, etc.
 
-Apple Music 分区发行歌曲的查找在上述 HOYO-MiX 要求中已提及，不再赘述。
+- Apple Music 分区发行歌曲的查找在上述 HOYO-MiX 要求中已提及，不再赘述。
 
-Spotify 可以使用 Lyricify 4 的搜索工具进行换区搜索（可能需要更换对应语言的歌曲名）：
+- Spotify 可以使用 Lyricify 4 的搜索工具进行换区搜索（可能需要更换对应语言的歌曲名）：
   ![使用 Lyricify4 查找歌曲信息](./img/image-20250728160546661.png)
 
 ## 6. 其他
