@@ -6,9 +6,9 @@
 
 **—— AMLL 生态作品 ——**
 
-[Apple Music-like Lyrics](https://github.com/Steve-xmh/applemusic-like-lyrics)
+[Apple Music-like Lyrics](https://github.com/amll-dev/applemusic-like-lyrics)
 /
-[AMLL TTML Tool 逐词歌词编辑器](https://github.com/Steve-xmh/amll-ttml-tool)
+[AMLL TTML Tool 逐词歌词编辑器](https://github.com/amll-dev/amll-ttml-tool)
 
 </div>
 
@@ -37,7 +37,7 @@
 >
 > Since AMLL series software currently does not support multilingual translations, users should get single-language-translated lyric by third-party tools (e.g. [ranhengzhang/ttml-trans-filter](https://github.com/ranhengzhang/ttml-trans-filter)) before using.
 >
-> Looking for more details? 👉[TTML Specification (Section 5.3)](https://github.com/Steve-xmh/amll-ttml-db/blob/main/instructions/ttml-specification-en.md#53-multi-language-and-background-support).
+> Looking for more details? 👉[TTML Specification (Section 5.3)](https://github.com/amll-dev/amll-ttml-db/blob/main/instructions/ttml-specification-en.md#53-multi-language-and-background-support).
 >
 > ---
 >
@@ -62,7 +62,7 @@
 > >
 > > **Example File:**
 > >
-> > [HOYOMiX/YMIR - 耀斑](https://github.com/Steve-xmh/amll-ttml-db/blob/main/raw-lyrics/1752080938784-68000793-8355bb14.ttml)
+> > [HOYOMiX/YMIR - 耀斑](https://github.com/amll-dev/amll-ttml-db/blob/main/raw-lyrics/1752080938784-68000793-8355bb14.ttml)
 >
 > ---
 >
@@ -85,7 +85,7 @@
 > >
 > > **Example File:**
 > >
-> > [Darren Korb - Time Belongs to Us](https://github.com/Steve-xmh/amll-ttml-db/blob/main/raw-lyrics/1762708573944-68000793-qnjnaX11.ttml)
+> > [Darren Korb - Time Belongs to Us](https://github.com/amll-dev/amll-ttml-db/blob/main/raw-lyrics/1762708573944-68000793-qnjnaX11.ttml)
 > >
 > > ---
 > >
@@ -109,7 +109,7 @@
 
 ### 在此仓库中检索是否有已提交歌词
 
-请参考 [歌词元数据说明](https://github.com/Steve-xmh/amll-ttml-tool/wiki/%E6%AD%8C%E8%AF%8D%E5%85%83%E6%95%B0%E6%8D%AE) 获取您要提交歌词的歌曲 ID，在本仓库内搜索该 ID，如无任何文件，则该歌曲暂无 TTML 歌词，欢迎您的提交。
+请参考 [歌词元数据说明](https://github.com/amll-dev/amll-ttml-tool/wiki/%E6%AD%8C%E8%AF%8D%E5%85%83%E6%95%B0%E6%8D%AE) 获取您要提交歌词的歌曲 ID，在本仓库内搜索该 ID，如无任何文件，则该歌曲暂无 TTML 歌词，欢迎您的提交。
 
 ### 在 SearchInAMLLDB 中检索是否有已提交歌词
 
@@ -131,7 +131,7 @@
 >
 > 如果你发布了占位议题并提交了投稿，我们建议在备注中引用你的议题，以减少可能的疑议。
 
-请访问 [此仓库/issue](https://github.com/Steve-xmh/amll-ttml-db/issues) ，搜索您要提交歌词的歌曲名称，如无 **Open 状态的、有「歌词制作占位」标签的** Issue，则该歌曲的歌词提交工作尚未被接手，欢迎您的提交。
+请访问 [此仓库/issue](https://github.com/amll-dev/amll-ttml-db/issues) ，搜索您要提交歌词的歌曲名称，如无 **Open 状态的、有「歌词制作占位」标签的** Issue，则该歌曲的歌词提交工作尚未被接手，欢迎您的提交。
 
 您也可以访问 [AMLL TTML 歌词议题墙](https://amlldb.bikonoo.com/) 检索。
 
@@ -176,7 +176,7 @@
 
 1. 在左上角依次点击 <kbd>文件</kbd> <kbd>导入歌词</kbd> 并选择您导入歌词的格式，根据页面提示导入歌词；
 2. 在左下角导入您的歌曲音频文件，调整播放倍速和音量；
-3. 在左上角依次点击 <kbd>编辑</kbd> <kbd>编辑歌词元数据</kbd> ，参考 [歌词元数据说明](https://github.com/Steve-xmh/amll-ttml-db/blob/main/instructions/instruction.md#1-%E5%85%83%E6%95%B0%E6%8D%AE) 编辑歌词元数据；
+3. 在左上角依次点击 <kbd>编辑</kbd> <kbd>编辑歌词元数据</kbd> ，参考 [歌词元数据说明](https://github.com/amll-dev/amll-ttml-db/blob/main/instructions/instruction.md#1-%E5%85%83%E6%95%B0%E6%8D%AE) 编辑歌词元数据；
 4. 在 **编辑** 界面编辑您的歌词，如对歌词行分词 、更改歌词行属性、填写翻译和音译歌词等；
 5. 在 **打轴** 界面制作逐词歌词，播放音频，善用以下按键开始打轴：
    | 按键         | 说明                                                         |
@@ -189,7 +189,7 @@
 
 ## 3. 提交歌词
 
-我们推荐通过 [创建「提交/补正歌词」Issue](https://github.com/Steve-xmh/amll-ttml-db/issues/new?template=submit-lyric.yml) 的方式提交歌词，您可以在该页面查看详细的提交流程。
+我们推荐通过 [创建「提交/补正歌词」Issue](https://github.com/amll-dev/amll-ttml-db/issues/new?template=submit-lyric.yml) 的方式提交歌词，您可以在该页面查看详细的提交流程。
 
 ## 4. 等待审核
 
@@ -214,7 +214,7 @@
 
 ## AMLL Player [推荐]
 
-AMLL Player 是 Apple Music-like Lyrics 的本地客户端，可播放本地音乐和连接 WebSocket 服务端。[前往了解](https://github.com/Steve-xmh/applemusic-like-lyrics/actions/workflows/build-player.yaml)
+AMLL Player 是 Apple Music-like Lyrics 的本地客户端，可播放本地音乐和连接 WebSocket 服务端。[前往了解](https://github.com/amll-dev/applemusic-like-lyrics/actions/workflows/build-player.yaml)
 
 AMLL Player 已内置歌词库搜索功能，导入本地歌曲后编辑歌词覆盖信息，即可从 AMLL TTML DB 搜索/导入歌词。
 
@@ -263,10 +263,10 @@ UniLyric 不仅是一个全能的歌词转换器，同时可以作为 AMLL Playe
 
 现阶段支持以下平台的歌词索引：
 
-- [Netease Cloud Music - 网易云音乐](./ncm-lyrics) - [`ncm-lyrics/`](https://github.com/Steve-xmh/amll-ttml-db/tree/main/ncm-lyrics)
-- [QQ Music - QQ 音乐](./qq-lyrics) - [`qq-lyrics/`](https://github.com/Steve-xmh/amll-ttml-db/tree/main/qq-lyrics)
-- [Apple Music](./am-lyrics) - [`am-lyrics/`](https://github.com/Steve-xmh/amll-ttml-db/tree/main/am-lyrics)
-- [Spotify](./spotify-lyrics) - [`spotify-lyrics/`](https://github.com/Steve-xmh/amll-ttml-db/tree/main/spotify-lyrics)
+- [Netease Cloud Music - 网易云音乐](./ncm-lyrics) - [`ncm-lyrics/`](https://github.com/amll-dev/amll-ttml-db/tree/main/ncm-lyrics)
+- [QQ Music - QQ 音乐](./qq-lyrics) - [`qq-lyrics/`](https://github.com/amll-dev/amll-ttml-db/tree/main/qq-lyrics)
+- [Apple Music](./am-lyrics) - [`am-lyrics/`](https://github.com/amll-dev/amll-ttml-db/tree/main/am-lyrics)
+- [Spotify](./spotify-lyrics) - [`spotify-lyrics/`](https://github.com/amll-dev/amll-ttml-db/tree/main/spotify-lyrics)
 
 每个歌词文件均已自动生成不同格式的歌词文件，通过文件后缀名区分：
 
@@ -279,9 +279,9 @@ UniLyric 不仅是一个全能的歌词转换器，同时可以作为 AMLL Playe
 
 您可以通过以下直链获取您对应平台音乐 ID 的歌词文件：
 
-> `https://raw.githubusercontent.com/Steve-xmh/amll-ttml-db/refs/heads/main/[对应平台歌词文件夹]/[音乐ID].[后缀名]`
+> `https://raw.githubusercontent.com/amll-dev/amll-ttml-db/refs/heads/main/[对应平台歌词文件夹]/[音乐ID].[后缀名]`
 
-如果需要检索从建立数据库开始至今所有的歌词文件，可以访问 [raw-lyrics/](./raw-lyrics/) 文件夹，内部的文件以 `[提交 UNIX 时间戳]-[提交者 Github ID]-[8 位随机 ID].ttml` 命名。或者通过 [metadata/](./metadata) 文件夹中的 [`raw-lyrics-index.jsonl`](https://github.com/Steve-xmh/amll-ttml-db/raw/refs/heads/main/metadata/raw-lyrics-index.jsonl) 进行检索，里面包含了所有歌词文件的元数据，并且从上到下按照从旧到新的顺序依次列出。
+如果需要检索从建立数据库开始至今所有的歌词文件，可以访问 [raw-lyrics/](./raw-lyrics/) 文件夹，内部的文件以 `[提交 UNIX 时间戳]-[提交者 Github ID]-[8 位随机 ID].ttml` 命名。或者通过 [metadata/](./metadata) 文件夹中的 [`raw-lyrics-index.jsonl`](https://github.com/amll-dev/amll-ttml-db/raw/refs/heads/main/metadata/raw-lyrics-index.jsonl) 进行检索，里面包含了所有歌词文件的元数据，并且从上到下按照从旧到新的顺序依次列出。
 
 同时，在每个平台文件夹下，还有一个存有基本信息的 `index.jsonl` 逐行存储了该平台下所属的所有歌词基本信息，以原始歌词文件顺序排列，也列出了所有历史歌词信息。
 
@@ -289,7 +289,7 @@ UniLyric 不仅是一个全能的歌词转换器，同时可以作为 AMLL Playe
 
 # 共享协议
 
-本仓库的外来数据部分遵循原数据提供方的共享协议共享，提交者自主编写的部分使用 [CC0 1.0 共享协议](https://github.com/Steve-xmh/amll-ttml-db?tab=CC0-1.0-1-ov-file) 共享。
+本仓库的外来数据部分遵循原数据提供方的共享协议共享，提交者自主编写的部分使用 [CC0 1.0 共享协议](https://github.com/amll-dev/amll-ttml-db?tab=CC0-1.0-1-ov-file) 共享。
 
 ***
 
