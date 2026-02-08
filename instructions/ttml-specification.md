@@ -104,7 +104,7 @@
 * **逐词歌词作者 Github ID**: `key="ttmlAuthorGithub"`
 * **逐词歌词作者 GitHub 用户名**: `key="ttmlAuthorGithubLogin"`
 
-请参阅 [AMLL Wiki](https://github.com/Steve-xmh/amll-ttml-tool/wiki/%E6%AD%8C%E8%AF%8D%E5%85%83%E6%95%B0%E6%8D%AE) 了解更多信息。
+请参阅 [AMLL Wiki](https://github.com/amll-dev/amll-ttml-tool/wiki/%E6%AD%8C%E8%AF%8D%E5%85%83%E6%95%B0%E6%8D%AE) 了解更多信息。
 
 ```xml
 <head>
