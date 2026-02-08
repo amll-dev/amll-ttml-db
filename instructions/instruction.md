@@ -26,7 +26,7 @@
 
 ![元数据编辑界面](./img/image-20250702193615365.png)
 
-预设的元数据的获取、添加参考[本篇文章](https://github.com/Steve-xmh/amll-ttml-tool/wiki/歌词元数据)。而对于不在预设中的元数据，可以通过在 <kbd>添加新键值</kbd> 菜单中输入「自定义键名」进行添加：
+预设的元数据的获取、添加参考[本篇文章](https://github.com/amll-dev/amll-ttml-tool/wiki/歌词元数据)。而对于不在预设中的元数据，可以通过在 <kbd>添加新键值</kbd> 菜单中输入「自定义键名」进行添加：
 
 ![元数据添加界面](./img/image-20250702194644943.png)
 
@@ -689,7 +689,7 @@
 ## 5. HOYO-MiX
 
 - 在以上要求的基础之上，要求将尽可能多地区的元数据添加到文件中；
-  - 当前，Apple 和 Spotify 分为下面这些分区，请按照这些分区逐一查找并添加元数据：[参考](https://github.com/Steve-xmh/amll-ttml-db/issues/3366)
+  - 当前，Apple 和 Spotify 分为下面这些分区，请按照这些分区逐一查找并添加元数据：[参考](https://github.com/amll-dev/amll-ttml-db/issues/3366)
     - 简中区（Spotify 无简中区）；
     - 繁中区；
     - 韩语区；
