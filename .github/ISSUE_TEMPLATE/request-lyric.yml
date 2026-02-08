@@ -30,7 +30,7 @@ body:
     attributes:
       label: 网易云音乐ID
       description: |
-        具体获取方式请在[这里](https://github.com/Steve-xmh/amll-ttml-tool/wiki/%E6%AD%8C%E8%AF%8D%E5%85%83%E6%95%B0%E6%8D%AE)查看。如果找不到或者没有请写“0”.
+        具体获取方式请在[这里](https://github.com/amll-dev/amll-ttml-tool/wiki/%E6%AD%8C%E8%AF%8D%E5%85%83%E6%95%B0%E6%8D%AE)查看。如果找不到或者没有请写“0”.
     validations:
       required: true
   - type: input
@@ -38,7 +38,7 @@ body:
     attributes:
       label: QQ音乐ID
       description: |
-        具体获取方式请在[这里](https://github.com/Steve-xmh/amll-ttml-tool/wiki/%E6%AD%8C%E8%AF%8D%E5%85%83%E6%95%B0%E6%8D%AE)查看。如果找不到或者没有请写“0”.
+        具体获取方式请在[这里](https://github.com/amll-dev/amll-ttml-tool/wiki/%E6%AD%8C%E8%AF%8D%E5%85%83%E6%95%B0%E6%8D%AE)查看。如果找不到或者没有请写“0”.
     validations:
       required: true
   - type: input
@@ -46,7 +46,7 @@ body:
     attributes:
       label: Spotify ID
       description: |
-        具体获取方式请在[这里](https://github.com/Steve-xmh/amll-ttml-tool/wiki/%E6%AD%8C%E8%AF%8D%E5%85%83%E6%95%B0%E6%8D%AE)查看。如果找不到或者没有请写“0”.
+        具体获取方式请在[这里](https://github.com/amll-dev/amll-ttml-tool/wiki/%E6%AD%8C%E8%AF%8D%E5%85%83%E6%95%B0%E6%8D%AE)查看。如果找不到或者没有请写“0”.
     validations:
       required: true
   - type: input
@@ -54,7 +54,7 @@ body:
     attributes:
       label: Apple Music ID
       description: |
-        具体获取方式请在[这里](https://github.com/Steve-xmh/amll-ttml-tool/wiki/%E6%AD%8C%E8%AF%8D%E5%85%83%E6%95%B0%E6%8D%AE)查看。如果找不到或者没有请写“0”.
+        具体获取方式请在[这里](https://github.com/amll-dev/amll-ttml-tool/wiki/%E6%AD%8C%E8%AF%8D%E5%85%83%E6%95%B0%E6%8D%AE)查看。如果找不到或者没有请写“0”.
     validations:
       required: true
   - type: checkboxes
