@@ -6,7 +6,7 @@ const LABEL_NAME = "待更新";
 const DAYS_THRESHOLD = 7;
 
 const repoEnv = process.env["GITHUB_REPOSITORY"] || "";
-const OWNER = process.env["OWNER"] || repoEnv.split("/")[0] || "Steve-xmh";
+const OWNER = process.env["OWNER"] || repoEnv.split("/")[0] || "amll-dev";
 const REPO = process.env["REPO"] || repoEnv.split("/")[1] || "amll-ttml-db";
 const TOKEN = process.env["GITHUB_TOKEN"];
 
