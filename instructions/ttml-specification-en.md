@@ -109,7 +109,7 @@ You can use AMLL metadata to credit the lyric author, for example:
   * **Lyric Author GitHub ID**: `key="ttmlAuthorGithub"`
   * **Lyric Author GitHub Username**: `key="ttmlAuthorGithubLogin"`
 
-Please refer to the [AMLL Wiki](https://github.com/Steve-xmh/amll-ttml-tool/wiki/%E6%AD%8C%E8%AF%8D%E5%85%83%E6%95%B0%E6%8D%AE) **(Chinese only)** for more information.
+Please refer to the [AMLL Wiki](https://github.com/amll-dev/amll-ttml-tool/wiki/%E6%AD%8C%E8%AF%8D%E5%85%83%E6%95%B0%E6%8D%AE) **(Chinese only)** for more information.
 
 ```xml
 <head>
