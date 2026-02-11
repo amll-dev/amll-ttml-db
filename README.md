@@ -117,11 +117,11 @@
 >
 > 由于历史原因，2024 年之前的投稿可能会出现一些不完全符合当前标准的内容，敬请谅解！如果你对这些内容有疑虑但有额外精力，可以考虑投稿进行修正，我们将优先处理！
 
-### 在 AMLL TTML 歌词站 中检索是否有已提交歌词 (推荐)
+### 在 AMLL TTML 歌词站中检索是否有已提交歌词 (推荐)
 
-请访问 [AMLL TTML 歌词站 搜索界面](https://amlldb.bikonoo.com/search.html)，输入您要提交歌词的歌曲名称并点击 <kbd>搜索</kbd> 按钮，如无任何结果，则该歌曲暂无 TTML 歌词，欢迎您的提交。
+请访问 AMLL TTML 歌词站的[搜索界面](https://amlldb.bikonoo.com/search.html)，输入您要提交歌词的歌曲名称并点击 <kbd>搜索</kbd> 按钮，如无任何结果，则该歌曲暂无 TTML 歌词，欢迎您的提交。
 
-> 感谢 HelloZGY [@cybaka520](https://github.com/cybaka520) 建立的歌词站！
+> 感谢 [@cybaka520](https://github.com/cybaka520) 建立的歌词站！
 
 ### 在此仓库中检索是否有已提交歌词
 
@@ -147,9 +147,9 @@
 >
 > 如果你发布了占位议题并提交了投稿，我们建议在备注中引用你的议题，以减少可能的疑议。
 
-请访问 [此仓库/issue](https://github.com/amll-dev/amll-ttml-db/issues) ，搜索您要提交歌词的歌曲名称，如无 **Open 状态的、有「歌词制作占位」标签的** Issue，则该歌曲的歌词提交工作尚未被接手，欢迎您的提交。
+请访问本仓库的 [Issues](https://github.com/amll-dev/amll-ttml-db/issues)  栏目，搜索您要提交歌词的歌曲名称，如无 **Open 状态的、有「歌词制作占位」标签**的 Issue，则该歌曲的歌词提交工作尚未被接手，欢迎您的提交。
 
-您也可以访问 [AMLL TTML 歌词议题墙](https://amlldb.bikonoo.com/) 检索。
+您也可以访问 [AMLL TTML 歌词站](https://amlldb.bikonoo.com/) 检索。
 
 ## 2. 制作歌词
 
@@ -166,7 +166,7 @@
 - 对于英文歌曲，单词之间的间隔不超过一个空格；
 - 对于修正已有歌词，请在补充说明处写明修改原因以及原 Pr；
 - 涉及政治敏感、有违人道主义的歌曲曲目不得提供歌词翻译（音译基本不限），如果为国语歌曲则不予提交歌词。
-  > 对于可能有 NSFW 内容的歌词内容翻译，不反对表达原意，但请尽量把握尺度、点到为止，否则可能视情况推迟审核，甚至驳回歌词；
+  > 对于可能有 NSFW 内容的歌词内容翻译，不反对表达原意，但请尽量把握尺度、点到为止，否则可能视情况推迟审核，甚至驳回歌词。
   > 
   > *NSFW：Not Safe For Work 的缩写，意思是某个网络内容不适合在工作场合浏览。它通常用于标记包含裸露、暴力或色情等不适合在工作环境中查看的内容。*
   
@@ -179,7 +179,7 @@
   > 对于不使用 AMLL TTML Tool 的歌词制作者或歌词编辑器开发者，你可以在需要添加音译或翻译的行的 `p` 元素中加入 `<span ttm:role="x-translation" xml:lang="...">...</span>` 作为翻译文本或者 `<span ttm:role="x-roman">...</span>` 作为音译文本。
 
 > [!NOTE]
-> 您可以使用来自 Apple Music 的 TTML 歌词文件，但一般情况下这类歌词很难做到完全精准，请您尽量避免不作修正直接提交，以防被审核人员因**单词偏差值过大**而驳回。
+> 您可以使用来自 Apple Music 的 TTML 歌词文件，但一般情况下这类歌词很难做到完全精准，请您尽量避免不作修正直接提交，以防被审核员因**单词偏移值过大**而驳回。
 
 ### 使用 AMLL TTML Tool 制作逐词歌词
 
@@ -190,7 +190,7 @@
 
 1. 可被 AMLL TTML Tool 读取的歌曲音频文件；
    > 受加密保护的格式不受支持。
-2. 包括 TTML 在内的，可被 Tool 识别的歌词文件或歌词纯文本。
+2. 可被 AMLL TTML Tool 识别的歌词文件或歌词纯文本。
    > AMLL TTML Tool 所支持的歌词格式： TTML / LRC / ESLyric / YRC / QRC / Lyricify Syllable
 
 然后：
@@ -210,13 +210,13 @@
 
 ## 3. 提交歌词
 
-- 我们推荐通过 [创建「提交/补正歌词」Issue](https://github.com/Steve-xmh/amll-ttml-db/issues/new?template=submit-lyric.yml) 的方式提交歌词，您可以在该页面查看详细的提交流程。
+- 我们推荐通过 [创建「提交/补正歌词」Issue](https://github.com/amll-dev/amll-ttml-db/issues/new?template=submit-lyric.yml) 的方式提交歌词，您可以在该页面查看详细的提交流程。
 
-- 您也可以手动创建 [Pull Request](https://github.com/Steve-xmh/amll-ttml-db/pulls) 的方式提交歌词，此方法需要您确保您的 TTML 歌词文件 **格式正确**，并仿照本仓库内 Bot 所提交的 Pull Request 进行编写。
-   > 此方法可以避免Bot在歌词提交时造成的 重排元数据 / 依据时间轴重排歌词行顺序 等格式化行为，但请您务必确保所提交的 TTML 歌词文件 及 Pull Request 内容 **格式完全正确**。
+- 您也可以通过手动提交 Pull Request 来提交歌词，这需要您确保您的 TTML 歌词文件 **格式正确**，并仿照本仓库内 Bot 所提交的 Pull Request 进行编写。
+   > 此方法可以避免 Bot 在歌词提交时进行的 `重排元数据` `依据时间轴重排歌词行顺序` 等格式化行为，但请您务必确保所提交的 TTML 歌词文件 及 Pull Request **格式完全正确**。
 
-- 您还可以在 [AMLL TTML 歌词站 创作中心](https://amlldb.bikonoo.com/manage.html) 提交歌词。在歌词站上传歌词需要您注册并登录，点击 <kbd>投稿</kbd> 并上传 TTML 歌词文件，通常情况下网站会自动识别歌词元数据并填充投稿标题，直接提交即可。
-   > 目前歌词站的审核人员较少，若您想要快速审核，请优先考虑Github站内投稿。
+- 您还可以在 AMLL TTML 歌词站的[创作中心](https://amlldb.bikonoo.com/manage.html)提交歌词。在歌词站上传歌词需要您注册并登录，点击 <kbd>投稿</kbd> 并上传 TTML 歌词文件，通常情况下网站会自动识别歌词元数据并填充投稿标题，直接提交即可。
+   > 目前歌词站的审核人员较少，若您想要快速审核，请优先考虑在 GitHub 提交歌词。
 
 > 如果您的歌曲在网易云音乐无可用版本，您可以自行上传歌曲文件。
  > - 在 Issue 中，您可以在 备注 处填写歌曲文件下载链接；
@@ -254,7 +254,7 @@
 
 ## AMLL Player [推荐]
 
-AMLL Player 是 Apple Music-like Lyrics 的本地客户端，可播放本地音乐和连接 WebSocket 服务端。[前往下载](https://github.com/Steve-xmh/applemusic-like-lyrics/actions/workflows/build-player.yaml)
+AMLL Player 是 Apple Music-like Lyrics 的本地客户端，可播放本地音乐和连接 WebSocket 服务端。[前往下载](https://github.com/amll-dev/applemusic-like-lyrics/actions/workflows/build-player.yaml)
 
 AMLL Player 已内置歌词库搜索功能，导入本地歌曲后编辑歌词覆盖信息，即可从 AMLL TTML DB 搜索/导入歌词。
 
