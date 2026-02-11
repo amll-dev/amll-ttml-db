@@ -31,7 +31,6 @@ This is the TTML word-level lyric database for **Apple Music-like Lyrics (AMLL)*
 > [!TIP]
 > ## 📣 Announcement
 > 
-> 
 > We are recruiting content reviewers and long-term maintainers!
 > For more details, please visit the [Discussion Thread](https://github.com/amll-dev/amll-ttml-db/discussions/8127).
 > Thank you for supporting this project!
@@ -45,6 +44,7 @@ This is the TTML word-level lyric database for **Apple Music-like Lyrics (AMLL)*
 ---
 
 > [!Important]
+> 
 > **A note for non-Chinese contributors:**
 > This database is primarily for Chinese speakers. However, if you are translating lyrics into other languages, please specify the language using the "xml:lang" attribute. If a Chinese (or other language) version already exists, please preserve existing content.
 > Since the AMLL software suite currently does not support multilingual translations natively, users should obtain single-language translated lyrics via third-party tools (e.g., [ranhengzhang/ttml-trans-filter](https://github.com/ranhengzhang/ttml-trans-filter)) before use.
