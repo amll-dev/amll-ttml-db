@@ -184,7 +184,7 @@
 ### 使用 AMLL TTML Tool 制作逐词歌词
 
 我们推荐使用 [AMLL TTML Tool](https://amll-ttml-tool.stevexmh.net) 制作逐词歌词，此 README 将简要介绍 AMLL TTML Tool 的使用步骤。
-> 您也可以使用 [@Linho1219](https://github.com/Linho1219) 开发的 [AMLL Editor](https://editor.amll.dev) 制作逐词歌词，此编辑器在打轴界面引入了 <kbd>随播放自动滚动</kbd> ，以及其他实用功能。
+> 您也可以使用 [@Linho1219](https://github.com/Linho1219) 开发的 [AMLL Editor](https://editor.amll.dev) 制作逐词歌词，此编辑器在打轴界面引入了 <kbd>随播放自动滚动</kbd> ，以及更多实用功能。
 
 您需要准备：
 
