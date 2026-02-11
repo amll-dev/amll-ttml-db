@@ -1,5 +1,9 @@
 <div align=center>
 
+[简体中文版本](https://github.com/amll-dev/amll-ttml-db/blob/main/README.md)
+/
+[English Version](https://github.com/amll-dev/amll-ttml-db/blob/main/README-EN.md)
+
 # **AMLL TTML DataBase**
 
 This is the TTML word-level lyric database for **Apple Music-like Lyrics (AMLL)**, designed to support high-performance lyric display.
