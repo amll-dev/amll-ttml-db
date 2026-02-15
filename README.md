@@ -1,5 +1,9 @@
 <div align=center>
 
+[简体中文版本](https://github.com/amll-dev/amll-ttml-db/blob/main/README.md)
+/
+[English Version](https://github.com/amll-dev/amll-ttml-db/blob/main/README-EN.md)
+
 # **AMLL TTML DataBase**
 
 这里是 Apple Music-like Lyrics 的 TTML 逐词歌词库，为 AMLL 更佳的歌词表现提供支持。
@@ -8,7 +12,7 @@
 
 [Apple Music-like Lyrics](https://github.com/amll-dev/applemusic-like-lyrics)
 /
-[AMLL TTML Tool 逐词歌词编辑器](https://github.com/Steve-xmh/amll-ttml-tool)
+[AMLL TTML Tool 逐词歌词编辑器](https://github.com/amll-dev/amll-ttml-tool)
 /
 [AMLL Editor 下一代逐词歌词编辑器](https://github.com/amll-dev/amll-editor) (开发中)
 /
@@ -16,9 +20,9 @@
 
 **—— 本仓库中的重要文档 ——**
 
-[审核细则](https://github.com/Steve-xmh/amll-ttml-db/blob/main/instructions/instruction.md)
+[审核细则](https://github.com/amll-dev/amll-ttml-db/blob/main/instructions/instruction.md)
 /
-[TTML文件规范](https://github.com/Steve-xmh/amll-ttml-db/blob/main/instructions/ttml-specification.md)
+[TTML文件规范](https://github.com/amll-dev/amll-ttml-db/blob/main/instructions/ttml-specification.md)
 
 </div>
 
@@ -179,7 +183,7 @@
   > 对于不使用 AMLL TTML Tool 的歌词制作者或歌词编辑器开发者，你可以在需要添加音译或翻译的行的 `p` 元素中加入 `<span ttm:role="x-translation" xml:lang="...">...</span>` 作为翻译文本或者 `<span ttm:role="x-roman">...</span>` 作为音译文本。
 
 > [!NOTE]
-> 您可以使用来自 Apple Music 的 TTML 歌词文件，但一般情况下这类歌词很难做到完全精准，请您尽量避免不作修正直接提交，以防被审核员因**单词偏移值过大**而驳回。
+> 您可以使用来自 Apple Music 的 TTML 歌词文件，但一般情况下这类歌词很难做到完全精准，请您尽量避免不作修正直接提交，以防被审核员因 **单词偏移值过大** 而驳回。
 
 ### 使用 AMLL TTML Tool 制作逐词歌词
 
@@ -210,12 +214,12 @@
 
 ## 3. 提交歌词
 
-- 我们推荐通过 [创建「提交/补正歌词」Issue](https://github.com/amll-dev/amll-ttml-db/issues/new?template=submit-lyric.yml) 的方式提交歌词，您可以在该页面查看详细的提交流程。
+- 我们推荐通过 [创建「提交/补正歌词」Issue](https://github.com/amll-dev/amll-ttml-db/issues/new?template=submit-lyric.yml) 的方式提交歌词，您可以在该页面查看详细的提交流程；
 
-- 您也可以通过手动提交 Pull Request 来提交歌词，这需要您确保您的 TTML 歌词文件 **格式正确**，并仿照本仓库内 Bot 所提交的 Pull Request 进行编写。
+- 您也可以通过手动提交 Pull Request 来提交歌词，这需要您确保您的 TTML 歌词文件 **格式正确**，并仿照本仓库内 Bot 所提交的 Pull Request 进行编写；
    > 此方法可以避免 Bot 在歌词提交时进行的 `重排元数据` `依据时间轴重排歌词行顺序` 等格式化行为，但请您务必确保所提交的 TTML 歌词文件 及 Pull Request **格式完全正确**。
 
-- 您还可以在 AMLL TTML 歌词站的[创作中心](https://amlldb.bikonoo.com/manage.html)提交歌词。在歌词站上传歌词需要您注册并登录，点击 <kbd>投稿</kbd> 并上传 TTML 歌词文件，通常情况下网站会自动识别歌词元数据并填充投稿标题，直接提交即可。
+- 您还可以在 AMLL TTML 歌词站的 [创作中心](https://amlldb.bikonoo.com/manage.html) 提交歌词。在歌词站上传歌词需要您注册并登录，点击 <kbd>投稿</kbd> 并上传 TTML 歌词文件，通常情况下网站会自动识别歌词元数据并填充投稿标题，直接提交即可。
    > 目前歌词站的审核人员较少，若您想要快速审核，请优先考虑在 GitHub 提交歌词。
 
 > 如果您的歌曲在网易云音乐无可用版本，您可以自行上传歌曲文件。
@@ -241,13 +245,15 @@
 如果您认为您的歌词不存在审核员修改意见中的问题，请尝试再次提交并附上原因，以便审核员理解你的意图，或是请求其他审核员审核。
 > [!TIP]
 >
-> 在等待审核的过程中或审核未通过时，您可在该PR内评论`/update {TTML 歌词文件下载直链}`来替换歌词文件并重新提交审核。机器人的操作可能有将近1-2分钟的延迟。机器人在准备着手替换工作时将对此评论竖大拇指示意。
+> 若您的歌词 Pull Request 处于 **未审核**（无 **审核中** 标签）或 **审核未通过** 状态，您可在该PR内 Comment（即评论） `/update {TTML 歌词文件下载直链}` 以更新歌词文件，此行为视为重新提交审核；
 > 
-> 您也可以评论`/close {原因}`来自助关闭本次提交，原因可以不填。
+> 在 Pull Request 内 Comment（即评论） `/label {标签}` 以添加 [合适的标签](https://github.com/amll-dev/amll-ttml-db/labels)；
 > 
-> 使用`/label {标签}`来添加[合适的标签](https://github.com/amll-dev/amll-ttml-db/labels)。
+> > 机器人的操作可能有将近1-2分钟的延迟，机器人在准备操作时将对此评论竖大拇指示意。
 > 
-> *您无需输入括号`{}`。*
+> 您可以评论 `/close {原因}` 来自助关闭本次歌词提交，原因选填。
+> 
+> > *上述所有操作，您无需输入括号 `{}`。*
 ***
 
 # 使用歌词数据库
