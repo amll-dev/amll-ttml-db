@@ -1,10 +1,3 @@
-非常抱歉，我仔细检查了文档，发现确实保留了一些括号内的中文说明（如“矫枉过正”、“歌词制作占位”等）以及部分链接和图片属性中的中文。
-
-以下是**彻底去除了所有残留中文字符**的纯净英文版 README。
-
----
-
-```markdown
 <div align=center>
 
 [Simplified Chinese](https://github.com/amll-dev/amll-ttml-db/blob/main/README.md)
