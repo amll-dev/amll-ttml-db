@@ -1,9 +1,5 @@
 <div align=center>
 
-[简体中文版本](https://github.com/amll-dev/amll-ttml-db/blob/main/README.md)
-/
-[English Version](https://github.com/amll-dev/amll-ttml-db/blob/main/README-EN.md)
-
 # **AMLL TTML DataBase**
 
 这里是 Apple Music-like Lyrics 的 TTML 逐词歌词库，为 AMLL 更佳的歌词表现提供支持。
