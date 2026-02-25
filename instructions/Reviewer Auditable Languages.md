@@ -177,6 +177,20 @@
       <td align="center">❌</td>
       <td align="center">❌</td>
     </tr>
+    <tr>
+      <td align="center"><b><img src="https://avatars.githubusercontent.com/u/250306205?v=4" width="30" height="30" alt="kid141252010" style="vertical-align:sub; margin-right:5px;"><br><a href="https://github.com/kid141252010">kid141252010</a></b></td>
+      <td align="center">✅</td>
+      <td align="center">❌</td>
+      <td align="center">❌</td>
+      <td align="center">✅</td>
+      <td align="center">❌</td>
+      <td align="center">❌</td>
+      <td align="center">❌</td>
+      <td align="center">❌</td>
+      <td align="center">✅</td>
+      <td align="center">❌</td>
+      <td align="center">❌</td>
+    </tr>
   </tbody>
 </table>
 
