@@ -287,7 +287,7 @@ Apple Music-like Lyrics for BetterNCM 已内置本仓库歌词源，无需手动
 
 ### 社区镜像源
 
-您也可以尝试由社区提供的镜像源，具体使用方法请自行在站内查阅，感谢 [@HelloZGY](https://github.com/cybaka520) 与 [@Luorix](https://github.com/LuorixDev) ！
+您也可以尝试由社区提供的镜像源，具体使用方法请自行在站内查阅，感谢 [@HelloZGY](https://github.com/cybaka520), [@Luorix](https://github.com/LuorixDev) 与 [@Burial0268](https://github.com/Burial0268) ！
 
 [AMLL TTML DB 镜像站](https://amlldb.bikonoo.com/mirror.html) By [@HelloZGY](https://github.com/cybaka520)
 
@@ -299,6 +299,11 @@ Apple Music-like Lyrics for BetterNCM 已内置本仓库歌词源，无需手动
 
 ```text
 06e48500-d086-11f0-bb6e-451fd0fc9216|Dimeta%E9%95%9C%E5%83%8F%E7%AB%99v1||ttml|https://amll.mirror.dimeta.top/api/db/ncm-lyrics/[NCM_ID].ttml
+```
+
+[GDBA 镜像站](https://amll-ttml-db.gbclstudio.cn) By [@Burial0268](https://github.com/Burial0268)
+```text
+c552e13a-19a4-4ff1-9b37-f4cdeb3de9dd|GDBA%E9%95%9C%E5%83%8F%E7%AB%99||ttml|https://amll-ttml-db.gbclstudio.cn/ncm-lyrics/[NCM_ID].ttml
 ```
 
 ## UniLyric [适配最多]
