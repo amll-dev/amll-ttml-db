@@ -16,7 +16,7 @@
 | :---: | :--- | :---: |
 | 🥇 | <img src="https://avatars.githubusercontent.com/u/50747104?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Xionghaizi001](https://github.com/Xionghaizi001) | 371 |
 | 🥈 | <img src="https://avatars.githubusercontent.com/u/174598250?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[ASyunagi](https://github.com/ASyunagi) | 280 |
-| 🥉 | <img src="https://avatars.githubusercontent.com/u/50987405?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[ITManCHINA](https://github.com/ITManCHINA) | 272 |
+| 🥉 | <img src="https://avatars.githubusercontent.com/u/50987405?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[ITManCHINA](https://github.com/ITManCHINA) | 275 |
 | 4 | <img src="https://avatars.githubusercontent.com/u/68000793?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[ranhengzhang](https://github.com/ranhengzhang) | 270 |
 | 5 | <img src="https://avatars.githubusercontent.com/u/207428447?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[kid1412520](https://github.com/kid1412520) | 213 |
 | 6 | <img src="https://avatars.githubusercontent.com/u/108002475?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[apoint123](https://github.com/apoint123) | 185 |
@@ -78,15 +78,15 @@
 | 62 | <img src="https://avatars.githubusercontent.com/u/83578994?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[mizuhara37](https://github.com/mizuhara37) | 7 |
 | 63 | <img src="https://avatars.githubusercontent.com/u/113773064?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Justbecause0210](https://github.com/Justbecause0210) | 6 |
 | 64 | <img src="https://avatars.githubusercontent.com/u/121381012?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[zhazhaLOL](https://github.com/zhazhaLOL) | 6 |
-| 65 | <img src="https://avatars.githubusercontent.com/u/91063577?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[IzumiiKonata](https://github.com/IzumiiKonata) | 6 |
-| 66 | <img src="https://avatars.githubusercontent.com/u/91305636?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[AnninMiru](https://github.com/AnninMiru) | 6 |
-| 67 | <img src="https://avatars.githubusercontent.com/u/101032423?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[DirectCuiFei](https://github.com/DirectCuiFei) | 5 |
-| 68 | <img src="https://avatars.githubusercontent.com/u/136240303?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[shaojin666](https://github.com/shaojin666) | 5 |
-| 69 | <img src="https://avatars.githubusercontent.com/u/151196223?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Torotar](https://github.com/Torotar) | 5 |
-| 70 | <img src="https://avatars.githubusercontent.com/u/227403208?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[syaro715](https://github.com/syaro715) | 5 |
-| 71 | <img src="https://avatars.githubusercontent.com/u/25745812?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[marcosteam](https://github.com/marcosteam) | 5 |
-| 72 | <img src="https://avatars.githubusercontent.com/u/56755417?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Eplorr](https://github.com/Eplorr) | 5 |
-| 73 | <img src="https://avatars.githubusercontent.com/u/76586484?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[2755337087](https://github.com/2755337087) | 5 |
+| 65 | <img src="https://avatars.githubusercontent.com/u/76586484?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[2755337087](https://github.com/2755337087) | 6 |
+| 66 | <img src="https://avatars.githubusercontent.com/u/91063577?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[IzumiiKonata](https://github.com/IzumiiKonata) | 6 |
+| 67 | <img src="https://avatars.githubusercontent.com/u/91305636?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[AnninMiru](https://github.com/AnninMiru) | 6 |
+| 68 | <img src="https://avatars.githubusercontent.com/u/101032423?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[DirectCuiFei](https://github.com/DirectCuiFei) | 5 |
+| 69 | <img src="https://avatars.githubusercontent.com/u/136240303?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[shaojin666](https://github.com/shaojin666) | 5 |
+| 70 | <img src="https://avatars.githubusercontent.com/u/151196223?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Torotar](https://github.com/Torotar) | 5 |
+| 71 | <img src="https://avatars.githubusercontent.com/u/227403208?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[syaro715](https://github.com/syaro715) | 5 |
+| 72 | <img src="https://avatars.githubusercontent.com/u/25745812?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[marcosteam](https://github.com/marcosteam) | 5 |
+| 73 | <img src="https://avatars.githubusercontent.com/u/56755417?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Eplorr](https://github.com/Eplorr) | 5 |
 | 74 | <img src="https://avatars.githubusercontent.com/u/98522202?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[XanderHo](https://github.com/XanderHo) | 5 |
 | 75 | <img src="https://avatars.githubusercontent.com/u/kmgcc?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[kmg](https://github.com/kmg) | 5 |
 | 76 | <img src="https://avatars.githubusercontent.com/u/113187535?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[marenol1mg](https://github.com/marenol1mg) | 4 |
