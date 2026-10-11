@@ -171,7 +171,7 @@
       <td align="center">✅</td>
       <td align="center">✅</td>
       <td align="center">✅</td>
-      <td align="center">❌</td>
+      <td align="center">✅</td>
     </tr>
     <tr>
       <td align="center"><b><img src="https://avatars.githubusercontent.com/u/115442729?v=4" width="30" height="30" alt="WindDrift" style="vertical-align:sub; margin-right:5px;"><br><a href="https://github.com/WindDrift">WindDrift</a></b></td>
