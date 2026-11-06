@@ -8,7 +8,8 @@ anyhow = "1.0.98"
 chrono = "0.4.41"
 tracing = "0.1.41"
 tracing-subscriber = { version = "0.3.20", features = ["env-filter"] }
-ttml_processor = { version = "0.3.3" }
+ttml_processor = { version = "0.4.0" }
+compact_str = "0.9"
 octocrab = "0.48.0"
 rand = "0.9.1"
 reqwest = "0.12.19"

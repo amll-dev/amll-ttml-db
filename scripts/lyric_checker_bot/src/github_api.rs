@@ -340,7 +340,7 @@ impl GitHubClient {
         body_parts.push(format!("### 歌词议题\n#{issue_number}"));
         body_parts.push(format!("### 歌词作者\n@{user_login}"));
 
-        let mut add_metadata_section = |title: &str, values: Option<&Vec<String>>| {
+        let mut add_metadata_section = |title: &str, values: Option<&[compact_str::CompactString]>| {
             if let Some(values) = values
                 && !values.is_empty()
             {
@@ -355,9 +355,9 @@ impl GitHubClient {
             }
         };
 
-        add_metadata_section("音乐名称", metadata.title.as_ref());
-        add_metadata_section("音乐作者", metadata.artist.as_ref());
-        add_metadata_section("音乐专辑名称", metadata.album.as_ref());
+        add_metadata_section("音乐名称", metadata.title.as_deref());
+        add_metadata_section("音乐作者", metadata.artist.as_deref());
+        add_metadata_section("音乐专辑名称", metadata.album.as_deref());
 
         if let Some(platform_ids) = &metadata.platform_ids {
             for (platform, ids) in platform_ids {
