@@ -52,7 +52,7 @@
 # 歌词提交流程
 
 > [!IMPORTANT]
-> 提交歌词前，请阅读[贡献指南](./CONTRIBUTING.md)和 [Wiki 投稿要求](https://github.com/amll-dev/amll-ttml-db/wiki/%E4%B8%8A%E4%BC%A0%E6%AD%8C%E8%AF%8D)。日常歌词新增、补正只接受指定 Issue 入口生成的 PR。
+> 提交歌词前，请阅读[贡献指南](./CONTRIBUTING.md)和 [Wiki 投稿要求](https://github.com/amll-dev/amll-ttml-db/wiki/%E4%B8%8A%E4%BC%A0%E6%AD%8C%E8%AF%8D)。
 
 ## 1. 检查是否重复提交
 
@@ -160,13 +160,13 @@
 
 ## 3. 提交歌词
 
-- 日常歌词新增、补正必须通过 [创建「提交/补正歌词」Issue](https://github.com/amll-dev/amll-ttml-db/issues/new?template=submit-lyric.yml) 投稿，并提供 TTML 文件下载直链；
-- GitHub Actions 会下载、校验、规范化歌词，留存输入原文并生成 PR，随后由审核员审核；
+- 歌词新增和补正必须通过标准流程，即 [创建「提交/补正歌词」Issue](https://github.com/amll-dev/amll-ttml-db/issues/new?template=submit-lyric.yml) 投稿，并提供 TTML 文件下载直链；
+- GitHub Actions 会下载、校验和规范化歌词，在原 Issue 中留存原文并生成 PR，随后由审核员审核；
 - 补正已入库歌词时，请选择「修正已有歌词」，在备注中提供原投稿 PR 的链接和修正说明。
 
-绕过该入口的普通歌词 PR 不予合并，包括手动或其他工具生成的 PR。文档和代码贡献仍正常接受，词库维护另有要求，完整准入规则见[贡献指南](./CONTRIBUTING.md)。
+绕过该入口的歌词 PR 不予合并，包括手动或其他工具生成的 PR。文档和代码贡献等词库本身的维护另有要求，见[贡献指南](./CONTRIBUTING.md)。
 
-> 如果歌曲在网易云音乐无可用版本，您可以上传歌曲文件，在 Issue 的备注中提供音源下载链接。也可以在标准流程生成的 PR 说明或评论中补充音源链接。
+> 如果歌曲在网易云音乐无可用版本，您可以上传歌曲文件，在 Issue 的备注中提供音源下载链接，或在评论中补充音源链接。
 
 ## 4. 等待审核
 
@@ -202,9 +202,8 @@
 > >   </tbody>
 > > </table>
 >
-> 对标准流程生成且仍保持原有单个源 TTML 文件变更结构的 PR，投稿者或仓库协作者应在原 PR 评论 `/update {TTML 歌词文件下载直链}` 来更新内容，不直接手工修改歌词源码；审核员的小修也须使用该流程，更新后的内容需要重新审核。
+> 对标准流程生成的 PR，投稿者或仓库协作者应在原 PR 评论 `/update {TTML 歌词文件下载直链}` 来更新内容，不允许直接修改歌词源码。审核员对 PR 的直接修改也须经过该流程，更新后的内容需要重新审核。
 > > 若您需要增加备注，请评论 `/update {TTML 歌词文件下载直链} {备注}`。
-> > 若文件名、路径或源文件数量已改变，应重新通过指定 Issue 入口投稿，并在备注中引用原 PR。`/update` 只处理目标文件，不能用于整张 PR 的结构修复或校验，详见[更新待审核投稿](./CONTRIBUTING.md#更新待审核投稿)。
 >
 > 在 Pull Request 内 Comment（即评论） `/label {标签}` 以添加 [合适的标签](https://github.com/amll-dev/amll-ttml-db/labels)；
 >
