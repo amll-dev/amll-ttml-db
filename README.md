@@ -26,6 +26,8 @@
 /
 [TTML文件规范](https://github.com/amll-dev/amll-ttml-db/wiki/%E6%A0%BC%E5%BC%8F%E8%A7%84%E8%8C%83)
 /
+[贡献指南](./CONTRIBUTING.md)
+/
 [审核团成员可审核语言](./instructions/Reviewer%20Auditable%20Languages.md)
 
 </div>
@@ -50,7 +52,7 @@
 # 歌词提交流程
 
 > [!IMPORTANT]
-> 提交歌词前，请完整阅读有关 [Wiki](https://github.com/amll-dev/amll-ttml-db/wiki/%E4%B8%8A%E4%BC%A0%E6%AD%8C%E8%AF%8D)！
+> 提交歌词前，请阅读[贡献指南](./CONTRIBUTING.md)和 [Wiki 投稿要求](https://github.com/amll-dev/amll-ttml-db/wiki/%E4%B8%8A%E4%BC%A0%E6%AD%8C%E8%AF%8D)。日常歌词新增、补正只接受指定 Issue 入口生成的 PR。
 
 ## 1. 检查是否重复提交
 
@@ -158,18 +160,13 @@
 
 ## 3. 提交歌词
 
-- 我们推荐通过 [创建「提交/补正歌词」Issue](https://github.com/amll-dev/amll-ttml-db/issues/new?template=submit-lyric.yml) 的方式提交歌词，您可以在该页面查看详细的提交流程；
+- 日常歌词新增、补正必须通过 [创建「提交/补正歌词」Issue](https://github.com/amll-dev/amll-ttml-db/issues/new?template=submit-lyric.yml) 投稿，并提供 TTML 文件下载直链；
+- GitHub Actions 会下载、校验、规范化歌词，留存输入原文并生成 PR，随后由审核员审核；
+- 补正已入库歌词时，请选择「修正已有歌词」，在备注中提供原投稿 PR 的链接和修正说明。
 
-- 您也可以通过手动提交 Pull Request 来提交歌词，这需要您确保您的 TTML 歌词文件 **格式正确**，并仿照本仓库内 Bot 所提交的 Pull Request 进行编写；
-   > 此方法可以避免 Bot 在歌词提交时进行的 `重排元数据` `依据时间轴重排歌词行顺序` 等格式化行为，但请您务必确保所提交的 TTML 歌词文件 及 Pull Request **格式完全正确**。
+绕过该入口的普通歌词 PR 不予合并，包括手动或其他工具生成的 PR。文档和代码贡献仍正常接受，词库维护另有要求，完整准入规则见[贡献指南](./CONTRIBUTING.md)。
 
-- 您还可以在 AMLL TTML 歌词站的 [创作中心](https://amlldb.bikonoo.com/manage.html) 提交歌词。在歌词站上传歌词需要您注册并登录，点击 <kbd>投稿</kbd> 并上传 TTML 歌词文件，通常情况下网站会自动识别歌词元数据并填充投稿标题，直接提交即可。
-   > 目前歌词站的审核人员较少，若您想要快速审核，请优先考虑在 GitHub 提交歌词。
-
-> 如果您的歌曲在网易云音乐无可用版本，您可以自行上传歌曲文件。
- > - 在 Issue 中，您可以在 备注 处填写歌曲文件下载链接；
- > - 在 Pull Request 中，您可以在 Body 中的 `备注` / Comment 处填写歌曲文件下载链接；
- > - 在 AMLL TTML 歌词站 创作中心 中，您可以点击 <kbd>内容管理</kbd>，找到并点击进入您想要上传歌曲文件的歌词，再点击 <kbd>上传音频</kbd> 即可上传歌曲文件。
+> 如果歌曲在网易云音乐无可用版本，您可以上传歌曲文件，在 Issue 的备注中提供音源下载链接。也可以在标准流程生成的 PR 说明或评论中补充音源链接。
 
 ## 4. 等待审核
 
@@ -205,8 +202,9 @@
 > >   </tbody>
 > > </table>
 >
-> 若您的歌词 Pull Request 处于 **未审核**（无 `审核中` 标签）或 **审核未通过**（审核留言歌词驳回原因，且标记 `待更新` 标签）状态，您可在该 PR 内 Comment（即评论） `/update {TTML 歌词文件下载直链}` 以更新歌词文件，此行为视为重新提交审核；
+> 对标准流程生成且仍保持原有单个源 TTML 文件变更结构的 PR，投稿者或仓库协作者应在原 PR 评论 `/update {TTML 歌词文件下载直链}` 来更新内容，不直接手工修改歌词源码；审核员的小修也须使用该流程，更新后的内容需要重新审核。
 > > 若您需要增加备注，请评论 `/update {TTML 歌词文件下载直链} {备注}`。
+> > 若文件名、路径或源文件数量已改变，应重新通过指定 Issue 入口投稿，并在备注中引用原 PR。`/update` 只处理目标文件，不能用于整张 PR 的结构修复或校验，详见[更新待审核投稿](./CONTRIBUTING.md#更新待审核投稿)。
 >
 > 在 Pull Request 内 Comment（即评论） `/label {标签}` 以添加 [合适的标签](https://github.com/amll-dev/amll-ttml-db/labels)；
 >

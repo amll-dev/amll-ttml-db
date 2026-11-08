@@ -8,17 +8,17 @@ body:
   - type: markdown
     attributes:
       value: |
-        标题中的 `歌词提交/补正` 请尽量根据实际提交内容改为 `歌词提交` 或 `歌词补正`，并填写上类似 `艺术家 - 歌曲名` 的歌曲信息，以便审核。
-        在上传歌词之前请详细阅读[歌词规范文档](https://github.com/amll-dev/amll-ttml-db/wiki/%E4%B8%8A%E4%BC%A0%E6%AD%8C%E8%AF%8D)，并确认上传内容遵守了歌词规范。否则可能会被审核打回修改哦！
+        本模板是普通歌词新增、补正的指定投稿入口。提交后由 GitHub Actions 校验、规范化歌词并生成 PR，不接受手动创建的普通歌词 PR。完整准入规则见[贡献指南](https://github.com/amll-dev/amll-ttml-db/blob/main/CONTRIBUTING.md)。
+        标题中的 `歌词提交/补正` 请根据实际内容改为 `歌词提交` 或 `歌词补正`，并填写类似 `艺术家 - 歌曲名` 的歌曲信息，以便审核。
+        上传前请阅读[Wiki 投稿要求](https://github.com/amll-dev/amll-ttml-db/wiki/%E4%B8%8A%E4%BC%A0%E6%AD%8C%E8%AF%8D)，确认歌词内容和格式符合要求。
 
   - type: input
     id: ttml-download-url
     attributes:
       label: TTML 歌词文件下载直链
       description: |
-        Github Action 将会获取该链接指向的歌词文件数据并检查正确性。
-        确认无误后，Github Action 机器人将会在该 Issue 下方评论歌词文件数据原文供留存检查。
-        如果访问出错或格式有误，会导致你的 Issue 被直接关闭，请注意哦！
+        GitHub Actions 将下载该链接指向的 TTML，校验并规范化后生成待审核 PR；输入原文会在 Issue 评论中留存。
+        链接不可访问或文件有误时，Issue 会被关闭，请按机器人反馈修正后重新投稿。
     validations:
       required: true
 
@@ -38,7 +38,7 @@ body:
     attributes:
       label: 请确认以下事项：
       options:
-        - label: 我已仔细阅读 [Wiki 投稿要求](https://github.com/amll-dev/amll-ttml-db/wiki/%E4%B8%8A%E4%BC%A0%E6%AD%8C%E8%AF%8D)，并了解投稿规范
+        - label: 我已阅读[贡献指南](https://github.com/amll-dev/amll-ttml-db/blob/main/CONTRIBUTING.md)和[Wiki 投稿要求](https://github.com/amll-dev/amll-ttml-db/wiki/%E4%B8%8A%E4%BC%A0%E6%AD%8C%E8%AF%8D)，并了解投稿规范
           required: true
 
   - type: textarea
@@ -46,14 +46,10 @@ body:
     attributes:
       label: 备注
       placeholder: |
-        如果是修正已有歌词，请尽量按以下格式补充修正说明：
-        对 #原投稿 PR 编号 的修正：
-        - 修正点 1
-        - 修正点 2
-        - 修正点 3
-        ...
+        原投稿 PR 链接：
+        修改原因与修正点：
       description: |
-        有什么需要补充说明的呢？
-        如果你所提交的歌曲中包含因特殊原因无法直接播放或获取的歌曲，建议提供一个音源下载链接，音质不做要求但是必须准确，这样可以方便审核哦！
+        补正已有歌词，或从旧 PR 重新投稿时，请引用原 PR 并说明修改原因，方便审核人员迁移已有审核信息。
+        若歌曲因特殊原因无法直接播放或获取，请提供准确的音源下载链接，方便审核。
     validations:
       required: false
