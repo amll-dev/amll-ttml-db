@@ -2,7 +2,7 @@
 感谢你的贡献！贡献前请先确认：
 
 1. 已阅读[贡献指南](https://github.com/amll-dev/amll-ttml-db/blob/main/CONTRIBUTING.md)。
-2. 本仓库的 PR 仅接受文档和代码更改，歌词新增、补正请通过[「提交/补正歌词」Issue](https://github.com/amll-dev/amll-ttml-db/issues/new?template=submit-lyric.yml) 投稿，由标准流程生成 PR。
+2. 人工 PR 可用于文档、代码及符合贡献指南的词库维护；日常歌词新增、补正请通过[「提交/补正歌词」Issue](https://github.com/amll-dev/amll-ttml-db/issues/new?template=submit-lyric.yml) 投稿，由标准流程生成 PR。
 3. 添加「词库维护」标签。（对于有权限添加标签的贡献者）
 -->
 
