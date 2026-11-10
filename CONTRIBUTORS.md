@@ -42,7 +42,7 @@
 | 26 | <img src="https://avatars.githubusercontent.com/u/65570536?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[haroyamada](https://github.com/haroyamada) | 24 |
 | 27 | <img src="https://avatars.githubusercontent.com/u/136059186?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[MiaowCham](https://github.com/MiaowCham) | 23 |
 | 28 | <img src="https://avatars.githubusercontent.com/u/171883270?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[lansogame](https://github.com/lansogame) | 23 |
-| 29 | <img src="https://avatars.githubusercontent.com/u/176977142?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Nick](https://github.com/Nick) | 21 |
+| 29 | <img src="https://avatars.githubusercontent.com/u/176977142?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Nick](https://github.com/Nick) | 22 |
 | 30 | <img src="https://avatars.githubusercontent.com/u/158539001?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[PhantomPixel-0418](https://github.com/PhantomPixel-0418) | 20 |
 | 31 | <img src="https://avatars.githubusercontent.com/u/70494801?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[Super12138](https://github.com/Super12138) | 20 |
 | 32 | <img src="https://avatars.githubusercontent.com/u/79665752?v=4" width="20" height="20" style="vertical-align:sub; margin-right:5px" />[EnchStudio](https://github.com/EnchStudio) | 20 |
